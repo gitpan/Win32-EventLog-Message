@@ -1,0 +1,3 @@
+LIBRARY Message
+EXPORTS
+	boot_Win32__EventLog__Message

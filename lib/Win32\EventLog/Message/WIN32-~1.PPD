@@ -1,0 +1,25 @@
+<SOFTPKG NAME="Win32-EventLog-Message" VERSION="0,2000,06,24">
+    <TITLE>Win32::EventLog::Message</TITLE>
+    <ABSTRACT>The Win32::EventLog::Message extension for Win32 X86. Supplies an EventLog message table for Windows NT.</ABSTRACT>
+	<AUTHOR>Roth Consulting (http://www.roth.net/)</AUTHOR>
+	
+    <IMPLEMENTATION>
+		<OS NAME="MSWin32" />
+		<ARCHITECTURE NAME="MSWin32-x86-object" />
+        <CODEBASE HREF="http://www.roth.net/perl/packages/x86/Win32/EventLog/EventMsg_5005_AS.tar.gz" />
+	</IMPLEMENTATION>
+  	
+    <IMPLEMENTATION>
+		<OS NAME="MSWin32" />
+		<ARCHITECTURE NAME="MSWin32-x86" />
+        <CODEBASE HREF="http://www.roth.net/perl/packages/x86/Win32/EventLog/EventMsg_5005.tar.gz" />
+	</IMPLEMENTATION>
+
+    <IMPLEMENTATION>
+		<OS NAME="MSWin32" />
+		<ARCHITECTURE NAME="MSWin32-x86-multi-thread" />
+        <CODEBASE HREF="http://www.roth.net/perl/packages/x86/Win32/EventLog/EventMsg_5006.tar.gz" />
+	</IMPLEMENTATION>
+
+</SOFTPKG>
+
